@@ -1,0 +1,13 @@
+{
+  "reports": [
+    {
+      "title": "TODO(EHCO): Report title needed",
+      "year": "2025",
+      "file": "TODO(EHCO): PDF file needed",
+      "sizeKB": null,
+      "unverified": true,
+      "todo": ["Report files needed from EHCO"]
+    }
+  ],
+  "todo": ["All report files and details needed from EHCO"]
+}

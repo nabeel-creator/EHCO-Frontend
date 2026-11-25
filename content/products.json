@@ -1,0 +1,17 @@
+{
+  "intro": "Handmade, upcycled products that turn waste into something useful.",
+  "products": [
+    {
+      "slug": "eco-pots",
+      "name": "Eco-Pots",
+      "status": "coming-soon",
+      "price": "TODO(EHCO): Price needed",
+      "description": "Upcycled paper planters made from waste materials by EHCO volunteers. Each pot is shaped and dried by hand.",
+      "material": "Recycled paper and cardboard",
+      "images": ["TODO(EHCO): Product photos needed"],
+      "unverified": true,
+      "todo": ["Price needed", "Product photos needed", "Confirm if available for sale"]
+    }
+  ],
+  "todo": ["All product details and photos needed from EHCO"]
+}

@@ -3,11 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="EHCO Frontend — Modern React web application" />
+    <meta name="description" content="EHCO (Environmental Healthcare Organization) is a women-led, youth-led climate NGO in Lahore, Pakistan, training students in practical climate skills from plastic audits to flood preparedness." />
+    <meta name="theme-color" content="#3C6A3F" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="non_profit" />
+    <meta property="og:site_name" content="Environmental Healthcare Organization" />
+    <meta property="og:title" content="EHCO — Environmental Healthcare Organization" />
+    <meta property="og:description" content="A women-led, youth-led climate NGO in Lahore, Pakistan. Turning climate awareness into action through school workshops, audits, and flood preparedness." />
+    <meta property="og:url" content="https://ehco.org.pk/" />
+    <meta property="og:image" content="/favicon.svg" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="EHCO — Environmental Healthcare Organization" />
+    <meta name="twitter:description" content="A women-led, youth-led climate NGO in Lahore, Pakistan. Practical climate action since 2024." />
+    <meta name="twitter:image" content="/favicon.svg" />
+
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <title>EHCO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <title>EHCO — Environmental Healthcare Organization</title>
+
+    <!-- Organization JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NGO",
+      "name": "Environmental Healthcare Organization",
+      "alternateName": "EHCO",
+      "slogan": "Grow, Adapt, Sustain.",
+      "url": "https://ehco.org.pk/",
+      "logo": "https://ehco.org.pk/favicon.svg",
+      "foundingDate": "2024",
+      "founders": [
+        {
+          "@type": "Person",
+          "name": "Laiba Nadeem",
+          "jobTitle": "Chairperson, Founder"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Lahore",
+        "addressCountry": "PK"
+      },
+      "email": "ehc.org.pak@gmail.com",
+      "telephone": "+923288058732",
+      "sameAs": [
+        "https://instagram.com/ehc.org.pak",
+        "https://youtube.com/@EHCOofficial"
+      ]
+    }
+    </script>
   </head>
-  <body class="bg-slate-50 text-slate-900 antialiased selection:bg-indigo-600 selection:text-white">
+  <body class="bg-white text-navy antialiased">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

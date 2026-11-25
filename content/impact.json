@@ -1,0 +1,30 @@
+{
+  "headline": "Where we have worked",
+  "description": "Each ring on the map marks a place where EHCO ran a project. Larger rings mean more people took part.",
+  "stats": [
+    {
+      "figure": "968",
+      "label": "people reached through projects and programmes",
+      "howWeCounted": "TODO(EHCO): How is this counted? Define 'reached'.",
+      "unverified": true
+    },
+    {
+      "figure": "10",
+      "label": "projects completed since 2024",
+      "howWeCounted": "TODO(EHCO): What counts as a project? The deck lists about 11 finished activities plus 4 ongoing.",
+      "unverified": true
+    },
+    {
+      "figure": "8",
+      "label": "schools worked with directly",
+      "howWeCounted": "TODO(EHCO): Which 8 schools?",
+      "unverified": true
+    },
+    {
+      "figure": "9",
+      "label": "countries reached through online programmes",
+      "howWeCounted": "TODO(EHCO): Which 9 countries?",
+      "unverified": true
+    }
+  ]
+}

@@ -1,70 +1,90 @@
-import { ArrowRight, Layers, ShieldCheck, Zap } from 'lucide-react'
-import { Link } from 'react-router-dom'
-import { ROUTES } from '@/routes/paths'
-
-const HIGHLIGHTS = [
-  {
-    icon: Zap,
-    title: 'Fast & Modern',
-    description: 'Powered by Vite and React 19 with code-split lazy routes for fast initial loads.',
-  },
-  {
-    icon: Layers,
-    title: 'Clean Architecture',
-    description: 'Organized into layouts, pages, components, and centralized route definitions.',
-  },
-  {
-    icon: ShieldCheck,
-    title: 'Production Ready',
-    description: 'Includes route error boundaries, 404 fallback, and Tailwind CSS v4 design tokens.',
-  },
-]
+import Hero from '@/components/home/Hero'
+import CategoryBar from '@/components/home/CategoryBar'
+import OrgIntroSection from '@/components/home/OrgIntroSection'
+import ServicesGrid from '@/components/home/ServicesGrid'
+import ProcessSection from '@/components/home/ProcessSection'
+import CaseStudiesSection from '@/components/home/CaseStudiesSection'
+import CommunityHighlight from '@/components/home/CommunityHighlight'
+import LatestArticles from '@/components/home/LatestArticles'
+import FinalCTA from '@/components/home/FinalCTA'
+import Section from '@/components/common/Section'
+import SectionHeading from '@/components/common/SectionHeading'
+import Ledger from '@/components/common/Ledger'
+import PartnerWall from '@/components/partners/PartnerWall'
+import Button from '@/components/common/Button'
+import ResultsMap from '@/components/results/ResultsMap'
+import impactData from '@content/impact.json'
+import partnersData from '@content/partners.json'
 
 export default function HomePage() {
   return (
-    <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
-      <div className="mx-auto max-w-2xl text-center">
-        <span className="inline-flex items-center rounded-full bg-indigo-50 px-3 py-1 text-xs font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-600/20">
-          EHCO Frontend
-        </span>
-        <h1 className="mt-6 text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">
-          Build modern web experiences with confidence.
-        </h1>
-        <p className="mt-5 text-base leading-relaxed text-slate-600 sm:text-lg">
-          A clean, scalable React + JavaScript starter configured with Tailwind CSS and React
-          Router, ready for feature development.
-        </p>
-        <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
-          <Link
-            to={ROUTES.ABOUT}
-            className="inline-flex items-center gap-2 rounded-lg bg-indigo-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-indigo-700"
-          >
-            Learn More
-            <ArrowRight className="h-4 w-4" />
-          </Link>
-          <Link
-            to={ROUTES.CONTACT}
-            className="inline-flex items-center rounded-lg border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-700 shadow-sm transition-colors hover:bg-slate-50"
-          >
-            Contact Us
-          </Link>
-        </div>
-      </div>
+    <>
+      {/* 1. Asymmetrical Editorial Hero */}
+      <Hero />
 
-      <div className="mt-20 grid gap-6 sm:grid-cols-3">
-        {HIGHLIGHTS.map(({ icon: Icon, title, description }) => (
-          <div
-            key={title}
-            className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs transition-shadow hover:shadow-md"
-          >
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-50 text-indigo-600">
-              <Icon className="h-5 w-5" />
-            </div>
-            <h2 className="mt-4 text-base font-semibold text-slate-900">{title}</h2>
-            <p className="mt-2 text-sm leading-relaxed text-slate-600">{description}</p>
-          </div>
-        ))}
-      </div>
-    </section>
+      {/* 2. Category Navigation Bar */}
+      <CategoryBar />
+
+      {/* 3. Organization Introduction (Asymmetrical Collage + Dark-Green Card) */}
+      <OrgIntroSection />
+
+      {/* 4. Services Grid (SaaS-inspired modern card grid) */}
+      <ServicesGrid />
+
+      {/* 5. Featured Process / Methodology Section (Dark-green with lime accents) */}
+      <ProcessSection />
+
+      {/* 6. Projects & Case Studies (Asymmetrical image-led layout) */}
+      <CaseStudiesSection />
+
+      {/* 7. Community & Team Highlight (Dark-green panel with portraits) */}
+      <CommunityHighlight />
+
+      {/* 8. Impact Footprint & Results Map (Preserving existing verified map & ledger data) */}
+      <Section bg="white" className="border-t border-[#E5EAE4]">
+        <SectionHeading
+          eyebrow="Geographic Reach"
+          title={impactData.headline || 'Where We Have Worked'}
+          description={
+            impactData.description ||
+            'Each ring on the map marks a community in Pakistan where EHCO conducted a verified project or camp.'
+          }
+          action={
+            <Button to="/impact/results" variant="secondary" withArrow>
+              View detailed results table
+            </Button>
+          }
+        />
+
+        <div className="bg-[#F5F6F1] rounded-3xl p-6 sm:p-8 border border-[#E5EAE4] card-shadow mb-10">
+          <ResultsMap />
+        </div>
+
+        <div className="pt-4">
+          <Ledger items={impactData.stats} />
+        </div>
+      </Section>
+
+      {/* 9. Coalition & Partners Wall */}
+      <Section bg="main" className="border-t border-[#E5EAE4]">
+        <SectionHeading
+          eyebrow="Coalition Network"
+          title="Our partners and collaborative allies"
+          description="We work alongside recognized civic institutions, humanitarian relief agencies, and academic campuses to scale practical climate training."
+          action={
+            <Button to="/about/partners" variant="secondary" withArrow>
+              Partner with us
+            </Button>
+          }
+        />
+        <PartnerWall partners={partnersData.partners} />
+      </Section>
+
+      {/* 10. Latest Editorial Articles & Research */}
+      <LatestArticles />
+
+      {/* 11. Pre-Footer Final CTA */}
+      <FinalCTA />
+    </>
   )
 }

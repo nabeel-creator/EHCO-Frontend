@@ -1,0 +1,68 @@
+{
+  "intro": "EHCO is led by young women in Lahore who combine environmental science with community organizing.",
+  "members": [
+    {
+      "slug": "laiba-nadeem",
+      "name": "Laiba Nadeem",
+      "title": "Chairperson, founder",
+      "bio": "TODO(EHCO): Full bio needed. Laiba founded EHCO to bring practical climate education to schools in Lahore.",
+      "featured": true,
+      "unverified": false,
+      "todo": ["Full bio needed"]
+    },
+    {
+      "slug": "sania-asim",
+      "name": "Sania Asim",
+      "title": "Vice Chairperson",
+      "bio": "TODO(EHCO): Full bio needed.",
+      "featured": false,
+      "unverified": false,
+      "todo": ["Full bio needed", "Confirm title: Vice Chairperson vs Executive Assistant"]
+    },
+    {
+      "slug": "amna-ahmad",
+      "name": "Amna Ahmad",
+      "title": "General Secretary",
+      "bio": "TODO(EHCO): Full bio needed.",
+      "featured": false,
+      "unverified": false,
+      "todo": ["Full bio needed"]
+    },
+    {
+      "slug": "hamra-imran",
+      "name": "Hamra Imran",
+      "title": "Assistant Secretary",
+      "bio": "TODO(EHCO): Bio incomplete — original text stops mid-sentence. Full bio needed.",
+      "featured": false,
+      "unverified": false,
+      "todo": ["Bio incomplete — stops mid-sentence in source"]
+    },
+    {
+      "slug": "noor-fatima",
+      "name": "Noor Fatima",
+      "title": "Executive Director",
+      "bio": "TODO(EHCO): Full bio needed.",
+      "featured": false,
+      "unverified": false,
+      "todo": ["Full bio needed"]
+    },
+    {
+      "slug": "amna-maheen",
+      "name": "Amna Maheen",
+      "title": "Program Coordinator",
+      "bio": "TODO(EHCO): Full bio needed.",
+      "featured": false,
+      "unverified": false,
+      "todo": ["Full bio needed"]
+    },
+    {
+      "slug": "eshal-zainab",
+      "name": "Eshal Zainab",
+      "title": "M&E Officer",
+      "bio": "TODO(EHCO): Full bio needed.",
+      "featured": false,
+      "unverified": false,
+      "todo": ["Full bio needed"]
+    }
+  ]
+}

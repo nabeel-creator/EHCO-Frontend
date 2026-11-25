@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "label": "About Us",
+      "items": [
+        { "label": "About EHCO", "href": "/about" },
+        { "label": "Meet our team", "href": "/about/team" },
+        { "label": "Our partners", "href": "/about/partners" }
+      ]
+    },
+    {
+      "label": "Services",
+      "items": [
+        { "label": "Our expertise", "href": "/what-we-do/expertise" },
+        { "label": "Services & topics", "href": "/what-we-do/services" },
+        { "label": "Strategic plan", "href": "/what-we-do/strategy" }
+      ]
+    },
+    {
+      "label": "Our Impact",
+      "items": [
+        { "label": "Case Studies", "href": "/impact/projects" },
+        { "label": "Field Stories", "href": "/impact/stories" },
+        { "label": "Verified Results", "href": "/impact/results" },
+        { "label": "Blog & Dispatches", "href": "/impact/blog" },
+        { "label": "Publications & Reports", "href": "/impact/reports" }
+      ]
+    },
+    {
+      "label": "Eco Shop",
+      "href": "/shop",
+      "items": []
+    },
+    {
+      "label": "Get Involved",
+      "items": [
+        { "label": "Become a member", "href": "/get-involved/membership" },
+        { "label": "Careers & volunteering", "href": "/get-involved/careers" },
+        { "label": "Partner with us", "href": "/get-involved/partner" }
+      ]
+    }
+  ],
+  "donateButton": {
+    "label": "Donate",
+    "href": "/donate"
+  }
+}

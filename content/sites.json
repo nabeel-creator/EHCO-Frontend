@@ -1,0 +1,73 @@
+{
+  "note": "Coordinates are approximate. Verify before launch.",
+  "sites": [
+    {
+      "slug": "lahore-fort",
+      "name": "Lahore Fort",
+      "lat": 31.589,
+      "lng": 74.315,
+      "people": 40,
+      "date": "June 2025",
+      "projectSlug": "world-environment-day",
+      "unverified": true
+    },
+    {
+      "slug": "kamran-baradari",
+      "name": "Kamran Baradari",
+      "lat": 31.620,
+      "lng": 74.301,
+      "people": 18,
+      "date": "October 2026",
+      "projectSlug": "world-migratory-bird-day",
+      "unverified": true
+    },
+    {
+      "slug": "lawrence-garden",
+      "name": "Lawrence Garden",
+      "lat": 31.555,
+      "lng": 74.329,
+      "people": 11,
+      "date": "April 2025",
+      "projectSlug": "earth-day-gathering",
+      "unverified": true
+    },
+    {
+      "slug": "samanabad",
+      "name": "Samanabad",
+      "lat": 31.535,
+      "lng": 74.297,
+      "people": null,
+      "date": "2025",
+      "projectSlug": "samanabad-school-session",
+      "unverified": true
+    },
+    {
+      "slug": "chung",
+      "name": "Chung",
+      "lat": 31.420,
+      "lng": 74.205,
+      "people": 50,
+      "date": "2025",
+      "projectSlug": "alkhidmat-flood-camp",
+      "unverified": true
+    }
+  ],
+  "onlineWork": [
+    {
+      "name": "Virtual COP 2025",
+      "projectSlug": "vcop-2025",
+      "people": 15
+    },
+    {
+      "name": "Let's Talk Climate podcast",
+      "projectSlug": "lets-talk-climate-podcast",
+      "people": null
+    },
+    {
+      "name": "Plastic Audit Phase 1",
+      "projectSlug": "plastic-audit-phase-1",
+      "people": 103
+    }
+  ],
+  "todo": ["Verify all coordinates before launch"]
+}

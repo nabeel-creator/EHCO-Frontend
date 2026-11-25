@@ -1,0 +1,62 @@
+{
+  "intro": "We work with organizations across Pakistan and beyond to bring climate education to more communities.",
+  "partners": [
+    {
+      "name": "Bargad",
+      "logo": "TODO(EHCO): Logo file needed",
+      "url": "TODO(EHCO): URL needed",
+      "note": "Partner on flood kits distribution",
+      "confirmed": false
+    },
+    {
+      "name": "Al-Khidmat Foundation",
+      "logo": "TODO(EHCO): Logo file needed",
+      "url": "TODO(EHCO): URL needed",
+      "note": "Partner on Chung flood camp",
+      "confirmed": false
+    },
+    {
+      "name": "FDI",
+      "logo": "TODO(EHCO): Logo file needed",
+      "url": "TODO(EHCO): URL needed",
+      "note": "Partner on flood kits distribution",
+      "confirmed": false
+    },
+    {
+      "name": "Virsapur",
+      "logo": "TODO(EHCO): Logo file needed",
+      "url": "TODO(EHCO): URL needed",
+      "note": "Listed in collaborators",
+      "confirmed": false
+    },
+    {
+      "name": "I-CAN Network",
+      "logo": "TODO(EHCO): Logo file needed",
+      "url": "TODO(EHCO): URL needed",
+      "note": "Listed in collaborators",
+      "confirmed": false
+    },
+    {
+      "name": "Pencrest",
+      "logo": "TODO(EHCO): Logo file needed",
+      "url": "TODO(EHCO): URL needed",
+      "note": "Listed in collaborators",
+      "confirmed": false
+    },
+    {
+      "name": "Ravi Bachao Tehreek",
+      "logo": "TODO(EHCO): Logo file needed",
+      "url": "TODO(EHCO): URL needed",
+      "note": "Partner on World Migratory Bird Day event",
+      "confirmed": false
+    },
+    {
+      "name": "YOUNGO",
+      "logo": "TODO(EHCO): Logo file needed",
+      "url": "TODO(EHCO): URL needed",
+      "note": "Virtual COP partner",
+      "confirmed": false
+    }
+  ],
+  "todo": ["Confirm each partner has agreed to appear on the website", "Get logo files", "Identify the unidentified school crest from collaborators slide"]
+}

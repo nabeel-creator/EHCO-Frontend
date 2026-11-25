@@ -1,0 +1,55 @@
+{
+  "name": "Environmental Healthcare Organization",
+  "shortName": "EHCO",
+  "tagline": "Grow, Adapt, Sustain.",
+  "description": "A women-led, youth-led climate NGO based in Lahore, Pakistan, working with schools and communities since 2024.",
+  "contact": {
+    "email": "ehc.org.pak@gmail.com",
+    "whatsapp": "+923288058732",
+    "whatsappLink": "https://wa.me/923288058732"
+  },
+  "socials": {
+    "instagram": {
+      "handle": "@ehc.org.pak",
+      "url": "https://instagram.com/ehc.org.pak"
+    },
+    "youtube": {
+      "handle": "@EHCOofficial",
+      "url": "https://youtube.com/@EHCOofficial"
+    },
+    "linkedin": {
+      "name": "Environmental HealthCare Organization",
+      "url": "TODO(EHCO): LinkedIn URL needed"
+    }
+  },
+  "mission": "To build climate awareness and practical skills among young people in Pakistan through hands-on education, community action, and digital outreach.",
+  "vision": "A Pakistan where every young person understands their environment and has the skills to protect it.",
+  "coreValues": [
+    {
+      "title": "Inclusion and quality education",
+      "description": "Every student, regardless of background, gets access to practical climate knowledge.",
+      "unverified": false
+    },
+    {
+      "title": "Innovation and collaboration",
+      "description": "We work with schools, NGOs and community groups to find new ways to teach and act.",
+      "unverified": false
+    },
+    {
+      "title": "Resilience and sustainability",
+      "description": "We prepare communities for climate risks and build habits that last.",
+      "unverified": false
+    }
+  ],
+  "method": [
+    "School and camp visits with hands-on activities",
+    "Collaboration with schools, NGOs and community groups",
+    "Digital outreach through podcasts and social media",
+    "Equal involvement of girls and marginalised groups"
+  ],
+  "framingLine": "Pakistan is one of the 10 most climate-vulnerable countries.",
+  "framingLineSource": "TODO(EHCO): Add source for this claim before publishing",
+  "ngoRegistration": "TODO(EHCO): NGO registration details needed",
+  "unverified": true,
+  "todo": ["Confirm LinkedIn URL", "Add NGO registration details", "Add source for climate vulnerability claim"]
+}
